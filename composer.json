@@ -22,16 +22,12 @@
     },
     "require": {
         "yiisoft/yii2": "*",
-        "yiisoft/yii2-bootstrap": "*",
-        "symfony/process": "2.8.*|3.*|4.*",
+        "symfony/process": "*",
         "creocoder/yii2-flysystem": "*"
     },
     "autoload": {
         "psr-4": {
             "bs\\dbManager\\": "src"
         }
-    },
-    "extra": {
-        "bootstrap": "bs\\dbManager\\Bootstrap"
-    }
+
 }
